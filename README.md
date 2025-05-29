@@ -9,8 +9,8 @@
 - [Future Extensions](#possible-future-extensions)
 - [Set Up](#set-up)
 - [Project Spec](#project-spec)
-- [GitHub Repo](#github-repo)
 - [Deploy Link](#deploy-link)
+- [Original GitHub Repo](#github-repo)
 - [Additional Resources](#additional-resources)
 
 ## Contributors
@@ -33,9 +33,9 @@ Brew Maps is a group project for Module 3 that is a cummulation of Module 3's le
 
 ## Learning Goals
 
-- Learning how to self-teach a new topic: TypeScript 
-- Successfully implement TypeScript 
+- Learning how to self-teach a new tech: TypeScript 
 - Build a good understanding of TypeScript
+- Successfully implement TypeScript 
 
 
 ## Technologies
@@ -53,7 +53,7 @@ Brew Maps is a group project for Module 3 that is a cummulation of Module 3's le
 
 ## Features
 
-- Upon page load, the user is presented with 20 different breweries.
+- Upon page load, the user is presented with many different breweries.
 - A user can search for a specific brewery and the breweries will populate on the page based on the user's input.
 - When a user clicks on a brewery, they are taken to a screen with the brewery name and reviews for that brewery.
 - Users can leave their own review on a brewery.
@@ -75,20 +75,20 @@ Brew Maps is a group project for Module 3 that is a cummulation of Module 3's le
 
 ## Front End Set Up Instructions
 
-1. Fork and clone [this](https://github.com/stephanie-roe/brew-maps/tree/main) repo.
+1. Fork and clone [THIS](https://github.com/userigorgithub/brew-maps) repo.
 3. Type `cd brew-maps` to move into the root directory.
 4. Run `npm install` to install necessary dependencies.
 5. Run `npm start`.
 6. Copy the url given by running `npm start` and open in your browser.
-    - URL: `git@github.com:stephanie-roe/brew-maps.git`
+    - URL: `git@github.com:userigorgithub/brew-maps.git`
 7. Run Cypress tests with `npm run cypress` if all dependencies are installed correctly.
     - Before running Cypress, restart the back end server (instructions below). 
-8. Explore the available movies and see their details!
+8. Explore the available breweries and see their details!
 
 ## Back End Set Up Instructions
 
 In addition to the above repo running in your terminal, you will also need to follow the steps below to start the back end api that we created.
-1. Clone down [THIS](https://github.com/stephanie-roe/brew-maps-api) repo
+1. Clone down [THIS](https://github.com/userigorgithub/brew-maps-api) repo
 2. `cd` into `brew-maps-api`
 3. Run `npm init`
 4. Run `npm i express`
@@ -98,10 +98,13 @@ In addition to the above repo running in your terminal, you will also need to fo
 
 - The spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html).
 
+## Deploy Link
 
-## Project GitHub Repo
+- Access deployed link [HERE]()
 
-- The project repo can be found [here](https://github.com/stephanie-roe/brew-maps).
+## Original GitHub Repo
+
+- Original repo is [here](https://github.com/stephanie-roe/brew-maps)
 
 ## Additional Resources
 
