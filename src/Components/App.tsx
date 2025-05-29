@@ -75,7 +75,7 @@ class App extends React.Component<{}, State> {
   }
 
   getAllBreweries = (): Promise<Brewery[]> => {
-    return fetch('https://api.openbrewerydb.org/breweries')
+    return fetch('https://api.openbrewerydb.org/v1/breweries')
       .then(response => {
         return response.json()})
   }
