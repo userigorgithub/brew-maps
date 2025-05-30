@@ -9,7 +9,7 @@
 - [Future Extensions](#possible-future-extensions)
 - [Set Up](#set-up)
 - [Project Spec](#project-spec)
-- [Deployed Link](#deploy-link)
+- [Deployed Link](#deployed-link)
 - [Original GitHub Repo](#github-repo)
 - [Additional Resources](#additional-resources)
 
