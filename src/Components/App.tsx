@@ -61,7 +61,7 @@ class App extends React.Component<{}, State> {
   }
 
   fetchData = (): Promise<ReviewObject[]> => {
-    return fetch(`http://localhost:3001/api/v1/reviews`)
+    return fetch('https://brew-maps-api.onrender.com/api/v1/reviews')
       .then(response => {
         if (response.ok) {
             return response.json()
@@ -94,7 +94,7 @@ class App extends React.Component<{}, State> {
   }
 
   refetch = (): any => {
-    return fetch('http://localhost:3001/api/v1/reviews')
+    return fetch('https://brew-maps-api.onrender.com/api/v1/reviews')
       .then(res => res.json())
       .then(data => data)
   }
