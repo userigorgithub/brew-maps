@@ -46,9 +46,9 @@ Brew Maps is a group project for Module 3 that is a cummulation of Module 3's le
   - Express
   - Cypress
   - Fetch API
-  - Webpack
   - NPM
   - Router
+  - GH Pages
 
 
 ## Features
@@ -90,9 +90,8 @@ Brew Maps is a group project for Module 3 that is a cummulation of Module 3's le
 In addition to the above repo running in your terminal, you will also need to follow the steps below to start the back end api that we created.
 1. Clone down [THIS](https://github.com/userigorgithub/brew-maps-api) repo
 2. `cd` into `brew-maps-api`
-3. Run `npm init`
-4. Run `npm i express`
-5. Run `node server.js` to start the back end server
+3. Run `npm i`
+4. Run `node server.js` to start the back end server
 
 ## Project Spec
 
@@ -100,6 +99,7 @@ In addition to the above repo running in your terminal, you will also need to fo
 
 ## Deployed Link
 
+- Important: This Front-End is deployed with GitHub Pages which runs front-end ONLY. Please set up back end separately. Alternatively, you can change API endpoints in App.tsx and ReviewForm.tsx files in front-end and change to code 2 in server.js in back-end to use Render services (as long as you don't get Internal Server Error (500))
 - Access deployed link [HERE](https://userigorgithub.github.io/brew-maps/)
 
 ## Original GitHub Repo
