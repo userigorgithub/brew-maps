@@ -9,7 +9,7 @@
 - [Future Extensions](#possible-future-extensions)
 - [Set Up](#set-up)
 - [Project Spec](#project-spec)
-- [Deploy Link](#deploy-link)
+- [Deployed Link](#deploy-link)
 - [Original GitHub Repo](#github-repo)
 - [Additional Resources](#additional-resources)
 
@@ -98,7 +98,7 @@ In addition to the above repo running in your terminal, you will also need to fo
 
 - The spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html).
 
-## Deploy Link
+## Deployed Link
 
 - Access deployed link [HERE](https://userigorgithub.github.io/brew-maps/)
 

@@ -49,7 +49,7 @@ class ReviewForm extends React.Component<ReviewFormProps, ReviewFormState> {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3001/api/v1/reviews')
+    fetch('https://brew-maps-api.onrender.com/api/v1/reviews')
     .then(res => {
       if (res.ok) {
         return res.json()
@@ -81,7 +81,7 @@ class ReviewForm extends React.Component<ReviewFormProps, ReviewFormState> {
 
   handleClick = (event: any): void => {
     event.preventDefault()
-    fetch(`http://localhost:3001/api/v1/reviews`, {
+    fetch('https://brew-maps-api.onrender.com/api/v1/reviews', {
       method: 'POST',
       body: JSON.stringify({
         "id": this.props.id,
