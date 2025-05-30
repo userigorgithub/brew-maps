@@ -33,7 +33,8 @@ class BreweryDetails extends React.Component<DetailsProps, DetailsState> {
   }
 
   componentDidMount() {
-    fetch(`https://api.openbrewerydb.org/v1/breweries/${this.props.id}`)
+    const { id } = this.props
+    fetch(`https://api.openbrewerydb.org/v1/breweries/${id}`)
     .then(response => {
       if (response.ok) {
         return response.json()
