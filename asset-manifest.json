@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/brew-maps/static/css/main.1c4981ec.css",
-    "main.js": "/brew-maps/static/js/main.7621e4d8.js",
+    "main.js": "/brew-maps/static/js/main.775cf0df.js",
     "static/js/453.f34f46cd.chunk.js": "/brew-maps/static/js/453.f34f46cd.chunk.js",
     "static/media/pattern.jpeg": "/brew-maps/static/media/pattern.e161681c32322b396e54.jpeg",
     "index.html": "/brew-maps/index.html",
     "main.1c4981ec.css.map": "/brew-maps/static/css/main.1c4981ec.css.map",
-    "main.7621e4d8.js.map": "/brew-maps/static/js/main.7621e4d8.js.map",
+    "main.775cf0df.js.map": "/brew-maps/static/js/main.775cf0df.js.map",
     "453.f34f46cd.chunk.js.map": "/brew-maps/static/js/453.f34f46cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c4981ec.css",
-    "static/js/main.7621e4d8.js"
+    "static/js/main.775cf0df.js"
   ]
 }
